@@ -1,46 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-*{
-   font-family: "inter";
-   margin: 0;
-   padding: 0;
-}
-/* nav section */
  
-.navbar{
+
+/* nav section****************************************** */
+.landing_page{
+   background-color: var(--color-white);
+}
+.w-90{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.mainnav {
+   width: 100%;
+   background-color: var(--color-white);
+   border-bottom: 1px solid #DADADA;
+}
+
+.divnav {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #DADADA;
-   padding: 32px 70px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
-.navlink{
+.navlink {
    display: flex;
    gap: 40px;
 }
 
-.navlink>li> a{
+.navlink>li>a {
    text-decoration: none;
    color: #333333;
+   font-weight: 500;
+   font-size: 1.125rem;
+
 }
 
-.navlink>li{
-   list-style: none;
-}
-
-.navlink>li>a:hover{
+.navlink>li>a:hover {
    text-decoration: underline;
 }
 
-.navphoto{
+
+
+/* Landing Page ******************************************** */
+
+.landingwrapper{
+   display: flex;
    align-items: center;
-   text-align: center;
+   justify-content: space-between;
+   margin-top: 118px;
+   margin-bottom: 118px;
 }
-.navbutton{
-   background-color: #0099FF;
-   border: none;
-   padding: 12px 65.5px;
-   color: white;
-   margin-left: 50px;
+
+
+.landing_paragraph_section{
+   width: 50%;
 }
+
+
+.landing_page_photo{
+   width: 50%;  
+}
+  
+.landing_heading1{
+   font-weight: 700;
+   font-size: 3.85rem;
+    line-height: 1;
+    /* letter-spacing: -1.5%; */
+    color: var(--text--secondary);
+    margin-bottom: 32px;
+   }
+ 
+ .landing_paragraph{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.7rem;
+   letter-spacing: 0;
+   margin-bottom: 40px;
+ }
+ 
+ .landing_button{
+   padding: 15px 38px;
+    color: var(--text--white);
+    /* text-transform: capitalize; */
+    font-family: var(--font--primary);
+    background: var(--color--primary);
+    border: none;
+    font-weight: 200;
+    border-radius: 4px;
+    font-size: 1.125rem;
+     
+     
+ }
+ .landing_button:hover{
+   opacity: 0.8;
+ }
+ 
+ .landing_link{
+   padding: 15px 50px;
+   color: var(--color--primary);
+   border: 1px solid var(--color--primary);
+   border-radius: 4px;
+   text-decoration: none;
+ }
+ 
+ .landing_link:hover{
+   background: var(--color--primary);
+   color: var(--color--white);
+   opacity: 0.6;
+   }
+ 
+
+
+
+

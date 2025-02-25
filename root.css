@@ -30,21 +30,21 @@ ol, ul {
 /* Root css variable  */
 
 :ROOT{
-  --color-primary: #0099FF;
-  --color-secondary:#333333;
-  --color-bodycolor: #494949;
-  --color-gray2: #999999;
-  --color-white: #FFFFFF;
+  --color--primary: #0099FF;
+  --color--secondary:#333333;
+  --color--bodycolor: #494949;
+  --color--gray2: #999999;
+  --color--white: #FFFFFF;
 
 
 
-  --bg-nav: #DADADA;
+  --bg--nav: #DADADA;
   --bg--white:#FFFFFF;
   --bg--light--blue:#0099FF0A;
   --bg--blue: #1694E8;
   --bg--grey: #F5FBFF;
 
-  --font--primary:"inter";
+  --font--primary:"Inter",serif;
 
 
   --text--primary:#494949;
@@ -63,6 +63,7 @@ ol, ul {
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  font-family: var(--font--primary);
    
 }
 
@@ -70,10 +71,11 @@ body {
   /* font-size: 1rem; */
   /* font-weight: 300; */
   /* background-color: var(--bg-grey); */
-  color: var(--text-primary);
-  letter-spacing: 0.02rem;;
+  color: var(--text--primary);
+  letter-spacing: 0.02rem;
   line-height: 1.4;
-  font-family: "inter"
+  font-family: var(--font--primary);
+  font-family: "Inter",serif;
 }
 
  
@@ -119,13 +121,13 @@ body h1{
 
 
 
-body  .large_text_bold,
-      .large_text_regular,
-      .medium_text_bold,
-      .medium_text_regular,
-      .normal_text_bold,
-      .normal_text_regular,
-      .small_text_bold{
+    body  .large_text_bold,
+    body  .large_text_regular,
+    body  .medium_text_bold,
+    body  .medium_text_regular,
+    body  .normal_text_bold,
+    body  .normal_text_regular,
+    body .small_text_bold{
       line-height: 1.7rem;
       }
 
@@ -166,7 +168,46 @@ body  .large_text_bold,
     /* line-height: 1.7rem; */
   }
 
+  .btn__main {
+    padding: 15px 66px;
+    color: var(--text--white);
+    text-transform: capitalize;
+    font-family: var(--font--primary);
+    background: var(--color--primary);
+    border: 1px solid var(--color--primary);
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    /* letter-spacing: 0.125rem; */  
+    line-height: 1;
+    
+  }
+
+  .btn_main_short{
+    padding: 18px 38px;
+  }
+
+
+  
+  .btn__main:hover{
+    opacity: 0.8;
+  }
 
 
 
+  /* Landing Page*************************************** */
 
+   .btn_main_outline{
+    padding: 18px 38px;
+    color: var(--color--primary);
+    border: 1px solid var(--color--primary);
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: var(--font--primary);
+    font-weight: 400;
+    font-size: 1.125rem;
+    /* letter-spacing: 0.125rem; */  
+    line-height: 1;
+    display: inline-block;
+    margin-left: 15px;
+   }
