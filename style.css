@@ -94,8 +94,16 @@
 
   .card{
    background:var(--color--white);
+   padding: 60px 30px 60px 30px;
+   /* box-shadow: 0px 10px 20px 0px #A4D9FD26; */
+  }
+
+  .card:hover{
+   box-shadow: 0px 10px 20px 0px #A4D9FD26 ;
   }
  
+
+
  .service_paragraph{
    width: 54%;
    /* font-size: 16px; */
@@ -112,13 +120,13 @@
     margin-bottom: 20px;
 
  }
+
  .service_heading2{
    font-weight: 700;
    letter-spacing: 0;
    color: var(--text--secondary);
    text-transform: capitalize;
    margin-bottom: 32px;
-
 }
 
 .service_detail{
@@ -128,21 +136,12 @@
    margin-bottom: 72px;
 }
 
-.card{
-   padding: 60px 30px 60px 30px;
-}
- 
 .card_photo{
    width: 100px;
    height: 100px;
-   margin-bottom:16px;
-   
+   margin-bottom:16px; 
 }
 
-.card_1{
-  box-shadow: 0px 10px 20px 0px #A4D9FD26 ;
-}
- 
 .card_paragraph{
    /* background-color: red; */
    margin-top: 25px;
@@ -184,3 +183,126 @@ width: 48%;
    margin-bottom: 16px ;
 }
 
+
+/* member section***************************** */
+
+.member_wrapper{
+   /* margin-bottom: 135px; */
+}
+.member_section{
+   background-color:var(--bg--light--blue)
+}
+
+.member_paragraph_section{
+   width: 36%;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 120px;
+   margin-bottom: 80px;
+   
+}
+.member_heading6{
+   margin-bottom: 16px;
+}
+.member_heading6{
+   font-weight: 600;
+   color: var(--text--secondary);
+   text-transform: capitalize;
+   margin-bottom: 16px;
+}
+
+.member_heading2{
+   font-weight: 700;
+   color: var(--text--secondary);
+   text-transform: capitalize;
+   margin-bottom: 32px;
+}
+
+.member_detail{
+   line-height: 1.7rem;  
+}
+.m_card{
+   width: 308px;
+   height: 379px;
+   object-fit: cover;
+}
+
+.member_card{
+   display: flex;
+   gap: 16px;
+   padding-bottom: 50px;
+
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.member_card_detail{
+   background-color: var(--bg--white);
+   /* background-color: red; */
+   width: 260px;
+   height: 133px;
+   padding: 12px 12px 12px 12px;
+   border-radius: 5px;
+   box-shadow: 0px 10px 20px 0px #A4D9FD26 ;
+   /* margin: 0 auto;
+   position: relative;
+   bottom: 70px;
+   left: 0; */
+   z-index: 1;
+
+   position: relative;
+   bottom: 70px;
+   left: 25px;
+    
+}
+
+
+.vector_image{
+  display: flex; 
+  gap: 14px;
+}
+
+.fa-brands{
+   width: 16px;
+   height: 16px;
+   color: var(--text--secondary);
+   margin-bottom: 16px;
+}
+
+.member_card_name{
+   font-weight: 700;
+   color: var(--text--secondary);
+   margin-bottom: 8px;
+   text-transform: capitalize;
+}
+
+.member_card_post{
+   font-size: 1.125rem;
+   text-transform: capitalize;
+}
+ 
+/* project section *********************** */
+
+.project_heading2{
+   font-weight: 700;
+   color: var(--text--black);
+   padding-top: 120px;
+   padding-bottom: 80px;
+}
+
+.project_card{
+   display: flex;
+   gap: 16px;
+}
+
+.project_photo{
+   width: 376px;
+   height: auto;
+}
+
+.project_card1{
+   box-shadow: 0px 4px 8px 0px #0000001A;
+   padding: 20px;
+
+}
