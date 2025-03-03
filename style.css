@@ -439,14 +439,12 @@
 }
 
 .rating_name{
-   font-family:"Roboto";
    font-weight: 600;
    color: var(--text--secondary);
 }
 
 .rating_post{
-   font-family:"Roboto";
-   font-weight: 400;
+   font-weight: 300;
 
 }
 
@@ -490,11 +488,11 @@ font-size: 1.125rem;
 }
 
 
-/* footer section ********************* */
+/* footer section ************************************* */
 
 .footer{
-   /* background-color: var(--bg--white); */
-   background-color: var(--bg--white);
+   background-color: var(--bg--light--blue);
+   
 }
 .footer_wrapper{
    display: flex; 
@@ -505,4 +503,87 @@ font-size: 1.125rem;
  .newsletter_detail{
    display: flex;
    flex-direction: column;
+ }
+
+ .footer_icons{
+   display: flex;
+   gap: 16px;
+ }
+ 
+
+ .footer_anker>li>a{
+   text-decoration: none;
+   color: var(--text--primary);
+   /* font-weight: 400; */
+   text-transform: capitalize;
+   font-size: 1.125rem;
+ }
+
+ .footer_anker>li:not(:last-child){
+   padding-bottom: 20px;
+ }
+
+ .footer_anker>li>a:hover{
+   text-decoration: underline;
+   color: var(--text--primary);
+    
+ }
+
+
+
+ .footer_logo{
+   width: 25%;
+ }
+
+ .footer_subscribe{
+   width: 27%;
+ }
+
+ .footer_photo, .footer_paragraph{
+   padding-bottom: 32px;
+ }
+
+ .footer_paragraph{
+   font-size: 1.125rem;
+ }
+
+ /* .footer_font_icon{
+   color: #333333;   
+   color: red;
+   width: 16px;
+   height: 16px;
+ }
+
+ .footer_icons>li{
+   width: 32px;
+   height: 32px;
+   background-color: blue;
+    border-radius: 4px; 
+ } */
+
+
+
+ .footer_heading6{
+   font-weight: 600;
+   color: #000000;
+   padding-bottom: 40px;
+  
+ }
+
+ .subscribe_paragraph1{
+   font-weight: 700;
+   font-size: 1.25rem;
+ }
+
+ .subscribe_paragraph{
+   font-size: 1.125rem;
+   padding-bottom: 40px
+ }
+
+ .email_type{
+   background-color: #333333;
+    padding: 13px 146px 13px 26px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 24px;
  }
