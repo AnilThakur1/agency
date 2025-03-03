@@ -43,6 +43,7 @@ ol, ul {
   --bg--light--blue:#0099FF0A;
   --bg--blue: #1694E8;
   --bg--grey: #F5FBFF;
+  --bg--black:#333333;
 
   --font--primary:"Inter",serif;
 
@@ -51,6 +52,7 @@ ol, ul {
   --text--secondary:#333333;
   --text--white: #FFFFFF;
   --text--black: #000000;
+  
 
 }
 
@@ -112,6 +114,7 @@ body h1{
     font-weight: 700;
     color: var(--color--secondary);
     text-transform: capitalize;
+    padding-bottom: 20px;
   }
 
   body h5{
@@ -200,7 +203,7 @@ body h1{
   /* Landing Page*************************************** */
 
   .btn_main_short{
-    padding: 18px 38px;
+  padding: 18px 38px;
   }
   .btn__main:hover{
     opacity: 0.8;
