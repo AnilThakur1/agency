@@ -265,7 +265,7 @@
    gap: 14px;
 }
 
-.fa-brands {
+.member-font-icon{
    width: 16px;
    height: 16px;
    color: var(--text--secondary);
@@ -285,13 +285,19 @@
 }
 
 /* project section *********************** */
+ 
+ 
+
 
 .project_heading2 {
    font-weight: 700;
    color: var(--text--black);
    padding-bottom: 80px;
+   
 
 }
+
+ 
 
 .project_card {
    display: flex;
@@ -546,21 +552,24 @@ font-size: 1.125rem;
  .footer_paragraph{
    font-size: 1.125rem;
  }
-
- /* .footer_font_icon{
-   color: #333333;   
-   color: red;
-   width: 16px;
-   height: 16px;
- }
-
- .footer_icons>li{
+ 
+ .footer_icons>li{  
+   background-color: var(--color--white);
    width: 32px;
    height: 32px;
-   background-color: blue;
-    border-radius: 4px; 
- } */
+   border-radius: 4px;  
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+ }
 
+ .footer_icons>li:hover{
+   box-shadow: 0px 3px 25px 0px #E9E9E9;
+ }
+
+ .footer_icons>li>a{
+    color: var(--bg--black);
+ }
 
 
  .footer_heading6{
