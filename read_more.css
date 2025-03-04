@@ -1,0 +1,49 @@
+/* image section in read more */
+.image_section{
+    background-color:#F5FBFF ;
+}
+
+.wrapper_image{
+    display: flex;
+    /* gap: 124px; */
+    justify-content:space-between;
+    
+}
+
+ .web_common{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #642EFF1A;
+    padding-bottom: 9px;
+    padding-top: 16px;
+    text-transform: capitalize;
+ }
+
+ .web_link{
+    margin-bottom: 48px;
+ }
+
+ .medical_btn{
+    padding: 12px 20px;
+ }
+
+ .medical_heading4, .medical_paragraph{
+    color: #0D0033;
+    padding-bottom: 24px;
+ }
+
+ .medical_paragraph{
+    font-size: 0.875rem;
+ }
+
+ .wp1,.wp2{
+   font-size: 1.125rem;
+ }
+
+.wp1{
+   font-weight: 500;
+ }
+ .wp2{
+    font-weight: 400;
+ }
+ 

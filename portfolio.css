@@ -1,0 +1,67 @@
+/* our portfolio section *********************************** */
+.portfilio_section{
+    /* background-color: red; */
+    background-color: var(--bg--blue);
+} 
+.wrapper_portfilio{
+    text-align: center;
+    width: 51%;
+}
+.portfolio_heading1{
+    color: var(--color--white);
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 20px;    
+}
+.portfolio_paragraph{
+    color: var(--color--white);
+    font-size: 1.125rem;
+}
+
+
+/* portfolio recent work section ****************************************/
+
+.recent_work{
+    background-color: var( --bg--light--blue);
+
+}
+
+.service_paragraph{
+    text-align: center;
+}
+
+.recent_work_heading6{
+    margin-bottom: 16px;
+    color: var(--text--black);
+}
+.recent_work_heading2{
+    margin-bottom: 24px;
+    color: var(--text--black);
+}
+.recent_work_paragraph{
+    margin-bottom: 90px;
+}
+
+.recent_work_card{
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.recent_work_btn{
+     margin-top: 32px;
+     padding: 12px 32px;
+     
+ 
+} 
+
+.recent_work_btn_div{
+    display: flex;
+    justify-content: center;
+}
+
+/* portfolio project ideas section **********************/
+.recent_idea_btn{
+    display: flex;
+    gap: 16px;
+}
