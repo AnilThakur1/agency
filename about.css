@@ -1,0 +1,38 @@
+
+ 
+ /* About Section********************************/
+ .about_image {
+    width: 48%;
+    object-fit: contain;
+ }
+ 
+ .about_paragraph_section {
+    width: 48%;
+ 
+ }
+ 
+ .about_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+ }
+ 
+ .about_heading2 {
+    text-transform: none;
+    margin-bottom: 24px;
+ 
+ }
+ 
+ .about_paragraph_detail {
+    line-height: 1.7rem;
+    margin-bottom: 40px;
+ }
+ 
+ .about_heading6 {
+    margin-bottom: 16px;
+     
+ }
+ 

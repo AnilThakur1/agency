@@ -48,8 +48,8 @@ ol, ul {
   --font--primary:"Inter",serif;
 
 
-  --text--primary:#494949;
-  --text--secondary:#333333;
+  --text--primary:#333333;
+  --text--secondary:#494949;
   --text--white: #FFFFFF;
   --text--black: #000000;
   
@@ -112,7 +112,7 @@ body h1{
     font-size: 2rem;
     line-height: 2.2rem;
     font-weight: 700;
-    color: var(--color--secondary);
+    color: var(--text--primary);
     text-transform: capitalize;
     padding-bottom: 20px;
   }
@@ -129,9 +129,10 @@ body h1{
   }
 
 
-  body p, body li, body button, body div {
+  body p, body li  {
     font-size: 1rem;
     line-height: 1.4;
+    color:var(--text--secondary); 
   }
 
 
@@ -196,14 +197,17 @@ body h1{
     font-size: 1.125rem;
     /* letter-spacing: 0.125rem; */  
     line-height: 1;
+    cursor: pointer;
     
   }
 
+  
   
   /* Landing Page*************************************** */
 
   .btn_main_short{
   padding: 18px 38px;
+  
   }
   .btn__main:hover{
     opacity: 0.8;
