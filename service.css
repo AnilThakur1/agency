@@ -1,5 +1,6 @@
 /* Services Section********************************* */
 
+/* service card section ************************* */
 .service_section {
     text-align: center;
  }
@@ -61,7 +62,7 @@
  
  .card_paragraph {
     /* background-color: red; */
-    margin-top: 25px;
+    /* margin-top: 25px; */
     font-size: 14px;
  }
   

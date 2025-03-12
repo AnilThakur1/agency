@@ -1,0 +1,852 @@
+/* Lpatop Views ***********************************/
+@media (min-width:1025px) and (max-width:1366px) {
+
+    /* nav section ***************************** */
+    .navlink {
+        gap: 30px;
+    }
+
+    .btn__main {
+        padding: 14px 50px
+    }
+
+    .navphoto {
+        width: 90%;
+    }
+
+
+
+    /* Landing Page *******************************   */
+    .landing_heading1 {
+        font-size: 3rem;
+    }
+
+    .landing_page_photo {
+        width: 45%;
+    }
+
+    .btn_main_short,
+    .btn_main_outline {
+        padding: 14px 30px;
+    }
+
+
+    /* project section************************************** */
+
+
+
+    .project_wrapper {
+        padding: 60px 0 60px 0;
+    }
+
+    .project_heading2 {
+        padding-bottom: 60px;
+    }
+
+    .project_card {
+        flex-wrap: wrap;
+    }
+
+    .project_card1 {
+        width: 45%;
+    }
+
+    body h4 {
+        font-size: 1.7rem;
+    }
+
+    /*  customer review ********************************* */
+
+
+    .faq_wrapper>h2 {
+        font-size: 2.8rem;
+    }
+    .idea_paragraph{
+        width: 62%;
+    }
+
+
+    /* project idea in mind *********************** */
+
+    .project_idea_wrapper {
+        padding: 50px 70px;
+    }
+
+    .btn_proect_mind {
+        padding: 16px 50px;
+    }
+
+    /*  footer section  ******************************  */
+
+    .footer_paragraph,
+    .subscribe_paragraph {
+        font-size: 1rem;
+    }
+
+    .footer_icons {
+        gap: 8px;
+    }
+
+    .footer_anker>li>a {
+        font-size: 1rem;
+    }
+
+
+    .footer_anker>li:not(:last-child) {
+        padding-bottom: 15px;
+    }
+
+    .subscribe_paragraph {
+        padding-bottom: 30px;
+    }
+
+    .email_type {
+        padding: 20px;
+    }
+
+    /*  now services of nav section */
+    /* service card section ************************* */
+
+    .card {
+        padding: 40px 20px;
+    }
+
+
+    /* service card section ************************* */
+
+    .service_wrapper {
+        padding: 120px 0 0 0;
+    }
+
+    /* About Section *****************************************  */
+
+    .about_heading2 {
+        font-size: 2.2rem;
+    }
+
+    .member_card {
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    /* .member_wrapper{
+    padding: 0 0 0 0;
+ } */
+
+    .member_wrapper {
+        padding: 60px 0 0 0;
+    }
+
+    .member_paragraph_section {
+        width: 51%;
+    }
+
+
+    /* portfolio nav section ******************************** */
+    .wrapper_portfilio {
+        width: 53%;
+    }
+
+
+    .portfolio_heading1 {
+        font-size: 3rem;
+    }
+
+    .portfolio_paragraph {
+        font-size: 1rem;
+    }
+
+    .service_paragraph {
+        width: 56%;
+    }
+
+    .recent_work_btn {
+        padding: 14px 30px;
+    }
+
+    .btn_proect_mind {
+        padding: 14px 30px;
+    }
+
+    /* contact section ************************************** */
+
+
+    .contact_form {
+        padding: 50px 70px;
+        /* justify-content: space-between; */
+
+    }
+
+    .contact {
+        width: 46%;
+    }
+
+    .service_detail label {
+        font-size: 1rem;
+    }
+
+    input[type="radio"] {
+        transform: scale(1.1);
+    }
+
+    .contact_send_btn {
+        padding: 14px 30px;
+    }
+
+
+    /* image section in read more **************** */
+
+    .read_more_image {
+        width: 550px;
+        /* width: 60%; */
+
+    }
+
+    .medical_btn {
+        padding: 10px 20px;
+    }
+
+    .wp1,
+    .wp2 {
+        font-size: 1rem
+    }
+
+    .web_link {
+        margin-bottom: 30px;
+    }
+
+    .medical_web{
+        box-shadow: 0px 4px 8px 0px rgba(58, 51, 51, 0.918);
+    }
+
+}
+
+
+
+
+/* Tablets View *********************************** */
+
+
+@media (min-width:769px) and (max-width:1024px){
+
+/* nav section ***************************** */
+     .navlink {
+        gap: 19px;
+    }
+
+  
+
+    .navphoto {
+        width:80%;
+    }
+
+    .navlink>li>a{
+        /* font-size: 1rem; */
+        font-size: 15px;
+    }
+     
+
+    /* Landing Page *******************************  */
+
+    .landing_heading1{
+        font-size: 2.5rem;
+    }
+
+    .landing_paragraph{
+        font-size: 1rem;
+    }
+
+    .btn__main, .btn_main_outline{
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    .landing_paragraph_section{
+        width: 48%;
+    }
+
+    .landingwrapper{
+        margin-bottom: 0;
+        margin-top: 80px;
+    }
+
+
+/* project section************************************** */
+
+    .project_heading2{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    }
+
+    .project_card1{
+        width: 48%;
+    }
+    .project_card{
+        flex-wrap: wrap;
+    }
+
+    body h4{
+        font-size: 1.5rem;
+    }
+
+    .website_paragraph{
+        font-size: 14px;
+    }
+
+    .project_detail>a{
+        font-size: 1rem;
+    }
+
+    /* faq section ******************************** */
+    .faq_wrapper{
+        padding: 60px 0 60px 0;
+    }
+
+    .faq_wrapper>h2{
+        padding-bottom: 0;
+        font-size: 2.5rem;
+    }
+
+    /* customer review ************************** */
+
+    .review_heading2{
+        font-size: 2.5rem;
+    }
+
+    .review_cards{
+        flex-wrap: wrap;
+    }
+
+    .review_card{
+        width: 48%;
+    }
+
+
+
+    /* project idea in mind *********************** */
+    .project_idea_wrapper{
+        padding: 50px;
+    }
+
+    .idea_detail{
+        font-size: 1rem;
+    }
+
+    .idea_paragraph{
+        width: 62%;
+    }
+
+
+/* footer section  ****************************** */
+
+
+
+    
+.footer_paragraph,
+.subscribe_paragraph {
+    font-size: 13px;
+}
+ 
+
+.footer_logo{
+    width: 25%;
+}
+
+.footer_wrapper{
+    gap: 30px;
+}
+
+
+.menu_div{
+    width: 10%;
+}
+
+.utility_div{
+    width: 15%;
+}
+
+.footer_subscribe{
+    width: 37%;
+}
+
+.footer_photo{
+    padding-bottom: 20px;
+}
+.footer_paragraph{
+    padding-bottom: 40px;
+}
+
+
+.footer_heading6{
+    font-size: 1rem;
+     
+}
+
+.footer_anker>li>a {
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+}
+
+.footer_anker>li:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+ .subscribe_paragraph {
+        padding-bottom: 20px;
+    }
+
+    .email_type {
+        padding: 14px;
+        margin-bottom: 20px;
+    }
+
+
+.footer_wrapper{
+    padding-bottom: 20px;
+}
+ 
+/* service section****************************  */
+
+.service_wrapper {
+    padding: 60px 0 0px 0;
+}
+.service_paragraph{
+    width: 70%;
+}
+.service_heading6 {
+    margin-bottom: 10px;
+}
+
+.service_heading2{
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+  
+
+/* service card section ************************* */
+.card_section{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 48%;
+    /* padding: 40px 20px 40px 20px; */
+    padding: 30px;
+
+}
+
+/* About Section  **************************************** */
+/* member section **************************************** */
+
+.member_wrapper{
+    padding: 60px 0 0 0
+}
+
+
+.member_paragraph_section{
+    width: 68%;
+}
+
+.member_heading2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.member_card{
+    flex-wrap: wrap;
+}
+
+/* portfolio nav section ******************************** */
+
+
+.wrapper_portfilio{
+    width: 70%;
+}
+.portfolio_heading1{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.portfolio_paragraph{
+    font-size: 1rem;
+}
+.service_paragraph{
+    width: 74%;
+}
+.project_idea_wrapper{
+    padding: 30px;
+}
+
+.idea_paragraph{
+    width: 58%;
+}
+.idea_detail{
+    font-size: 14px;
+}
+
+/* image section in read more ***************************** */
+.wrapper_image{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.medical_web{
+    width: 100%;
+    position:  unset;
+    margin-bottom: 50px;
+}
+
+/* contact section ************************************** */
+
+.contact_form{
+    padding: 30px 40px;
+}
+/* 
+.contact{
+    width: 68%;
+} */
+
+/* .form_detail{
+    width: 48%;
+} */
+
+.contact_paragragh{
+    font-size: 14px;
+}
+.form_headin6,.service_detail label{
+    font-size: 1rem;
+}
+input[type="radio"] {
+    transform: scale(1.2);
+}
+.service_detail label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.vector_image_contact{
+    padding-top: 100px;
+}
+.contact_info li a{
+    font-size: 14px;
+}
+
+}
+
+/* @media (max-width:768px) ################################# */
+
+
+@media (max-width:768px){
+
+/* .hamburger{
+   display: block;
+   visibility: visible;
+     } */
+
+     /* .divnav{
+        display: none;
+        visibility: hidden;
+        position:  absolute;
+     } */
+      
+    /* .navlink{
+        position:  absolute;
+        display: block;
+    } */
+
+     
+
+
+    .navphoto{
+        min-width: 100px;
+        
+    }
+    .navlink{
+        gap: 15px;
+        
+    }
+
+    .btn__main, .btn_main_outline{
+        padding: 10px 20px;
+        font-size: 14px;
+         
+    }
+
+    .navlink>li>a{
+        font-size: 14px;
+    }
+  
+.landing_heading1{
+    font-size: 2rem;
+}
+
+.landing_paragraph{
+    font-size: 14px;
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+}
+.landingwrapper{
+    margin-bottom: 0;
+}
+
+/* project section************************************** */
+
+.project_heading2{
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+.project_card{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project_card1{
+    width: 100%;
+}
+.project_detail h4{
+    font-size: 1.5rem;
+}
+.website_paragraph{
+    font-size: 14px;
+
+}
+.project_detail>a{
+    font-size: 1rem;
+}
+
+/* faq section ******************************* */
+
+.faq_wrapper{
+    padding: 60px 0 60px 0;   
+}
+.faq_wrapper>h2{
+    font-size: 2rem;
+    /* padding-bottom: 0; */
+}
+
+/* customer review ******************************** */
+.review_heading2{
+    font-size: 2rem;
+}
+.review_cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.review_card {
+    width: 80%;
+}
+
+/* project idea in mind *********************** */
+.project_idea_wrapper{
+    padding: 30px;
+}
+.idea_heading4{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.idea_detail{
+    font-size: 14px;
+}
+
+/* footer section  ****************************** */
+.footer_photo{
+    padding-bottom: 20px;
+}
+.footer_heading6{
+    font-size: 1rem; 
+}
+.footer_paragraph,.subscribe_paragraph{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.footer_anker>li>a{
+    font-size: 14px;
+}
+.footer_anker>li:not(:last-child) {
+    padding-bottom: 8px;
+}
+.email_type{
+    padding: 10px;
+    margin-bottom: 16px;
+}
+.footer_wrapper{
+    /* padding: 120px 0 60px 0; */
+    padding-bottom: 20px;
+}
+
+/* service section**************************** */
+.service_wrapper{
+    padding: 120px 0 0 0;
+
+}
+
+
+.service_paragraph{
+    width: 70%;
+}
+.service_heading6{
+    margin-bottom: 10px;
+}
+.service_heading2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card_section {
+    flex-wrap: wrap;
+}
+.card{
+    width: 48%;
+    /* padding: 60px 30px 60px 30px; */
+    padding: 30px;
+}
+
+.section_heading4{
+    font-size: 1.2rem;
+}
+
+/* About Section ***************************************** */
+.about_heading6{
+    font-size: 1rem;
+}
+
+
+.about_heading2{
+    /* line-height: 2rem; */
+    font-size: 1.5rem;
+    margin-bottom: 10px
+}
+
+.about_paragraph_detail{
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+.member_paragraph_section{
+    width: 68%;
+}
+
+.member_heading6{
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+
+.member_wrapper {
+padding: 60px 0 0 0;
+}
+
+
+.member_heading2{
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+.member_card{
+    flex-wrap: wrap;
+}
+
+
+/* portfolio nav section ******************************** */
+.portfolio_heading1{
+    font-size: 2rem;
+}
+
+
+.portfolio_paragraph{
+font-size: 1rem;
+}
+
+.wrapper_portfilio{
+    padding: 60px 0 60px 0;
+}
+
+.wrapper_portfilio{
+    width: 70%;
+}
+.portfolio_paragraph_recent{
+width: 74%;
+}
+
+.recent_work_heading6{
+font-size: 1rem;
+}
+
+/* image section in read more ***************************** */
+ 
+.wrapper_image{
+        flex-direction: column-reverse;
+        
+}
+
+
+.medical_web {
+    width: 100%;
+    position: unset;
+    margin-bottom: 50px;
+}
+
+.medical_heading4{
+    font-size: 1.5rem;
+}
+
+
+/* contact section ************************************** */
+
+ 
+.contact_wrapper{
+    width: 90%;
+    
+}
+
+/* .contact{
+    width: 31%;
+} */
+
+/* .form {
+    width: 45%;
+} */
+
+.contact_form{
+    padding: 20px 40px;
+    gap: 20px;
+    justify-content:space-between;   
+}
+body h4,.form_headin6{
+    font-size: 1rem;
+}
+.contact_paragragh{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+body p{
+    font-size: 14px;
+}
+
+.service_detail label{
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    transform: scale(1);
+}
+.service_detail label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form>li:not(:last-child) {
+    padding-bottom: 15px;
+}
+.vector_image_contact{
+    padding-top: 100px;
+}
+
+
+}
+        
+

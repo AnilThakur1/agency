@@ -12,14 +12,14 @@
    padding: 120px 0 120px 0;
 }
 
-
-
+.navphoto{
+   width: 100%;
+   object-fit: cover;
+}
 
 .mainnav {
-   width: 100%;
    background-color: var(--color-white);
    border-bottom: 1px solid #DADADA;
-  
     
 }
 
@@ -51,6 +51,22 @@
 
 
 
+/* hamburger for responsibe */
+
+.hamburger{
+   font-size: 3rem;
+   /* background-color:var(--bg--blue); */
+   background-color: transparent;
+   display: none;
+   border: none;
+   color: #0099FF;
+}
+ 
+
+
+
+ 
+
 /* Landing Page ******************************************** */
 
 .landingwrapper {
@@ -69,7 +85,7 @@
 
 .landing_page_photo {
    width: 50%;
-   object-fit: contain;
+   object-fit: cover;
 }
 
 .landing_heading1 {
@@ -136,7 +152,8 @@
    display: flex;
    gap: 16px;
    justify-content: center;
-   align-items: center;
+   /* align-items: center; */
+   /* flex-wrap: wrap; */
 
 }
 
@@ -186,10 +203,8 @@
    text-transform: capitalize;
 }
 
-/* project section *********************** */
+/* project section *******************************8*** */
  
- 
-
 
 .project_heading2 {
    font-weight: 700;
@@ -201,21 +216,30 @@
 
  
 
-.project_card {
+.project_card{
    display: flex;
    gap: 16px;
-
+   /* justify-content:center; */
+   /* align-items: center; */
+   /* flex-wrap: wrap; */
+  
 }
 
 .project_photo {
-   width: 376px;
-   height: auto;
-   margin-bottom: 24px;
+ width: 100%;
+ /* height: 327px; */
+ margin-bottom: 24px;
+ object-fit: cover;
 }
+
+.project_detail{
+   margin-bottom:0;
+} 
 
 .project_card1 {
    box-shadow: 0px 4px 8px 0px #0000001A;
    padding: 20px;
+   width: 30%;
 
 }
 
@@ -231,7 +255,7 @@
    text-transform: capitalize;
    color: var(--text--primary);
    text-decoration: none;
-   padding-bottom: 12px;
+   /* padding-bottom: 12px; */
 
 }
 
@@ -494,7 +518,7 @@ font-size: 1.125rem;
 
  .email_type{
    background-color: #333333;
-    padding: 13px 146px 13px 26px;
+    padding: 16px 146px 16px 26px;
     border-radius: 4px;
     color: white;
     margin-bottom: 24px;

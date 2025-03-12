@@ -2,7 +2,7 @@
  
  /* About Section********************************/
  .about_image {
-    width: 48%;
+    width: 50%;
     object-fit: contain;
  }
  
@@ -22,7 +22,7 @@
  
  .about_heading2 {
     text-transform: none;
-    margin-bottom: 24px;
+   
  
  }
  
@@ -33,6 +33,6 @@
  
  .about_heading6 {
     margin-bottom: 16px;
-     
+   
  }
  
