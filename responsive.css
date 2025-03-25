@@ -540,27 +540,32 @@ input[type="radio"] {
 
 @media (max-width:768px){
 
-/* .hamburger{
+
+    
+
+.hamburger{
    display: block;
    visibility: visible;
-     } */
+   box-sizing: border-box;
+     }
+ 
 
-     /* .divnav{
+     .navlink{
         display: none;
-        visibility: hidden;
-        position:  absolute;
-     } */
-      
-    /* .navlink{
-        position:  absolute;
-        display: block;
-    } */
+        visibility:hidden;
+     }
 
-     
 
+
+     .divnav>.btn__main{
+        display: none;
+     }
+    
 
     .navphoto{
         min-width: 100px;
+        /* min-width: 80%; */
+         
         
     }
     .navlink{
@@ -568,11 +573,19 @@ input[type="radio"] {
         
     }
 
+    .buttons{
+        display:flex ;
+    }
     .btn__main, .btn_main_outline{
         padding: 10px 20px;
-        font-size: 14px;
-         
+        font-size: 14px;  
+        
     }
+    .buttons>.btn__main,.btn_main_outline{
+        font-size: 12px;
+    }
+
+    
 
     .navlink>li>a{
         font-size: 14px;
@@ -588,7 +601,18 @@ input[type="radio"] {
     margin-bottom: 20px;
 }
 .landingwrapper{
+    flex-direction: column;
     margin-bottom: 0;
+}
+
+.landing_paragraph_section{
+    width: 83%;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.landing_page_photo {
+    width: 70%;
 }
 
 /* project section************************************** */
@@ -845,8 +869,199 @@ input[type="radio"] {
 .vector_image_contact{
     padding-top: 100px;
 }
-
+.recent_idea_btn{
+    display: grid;
+}
 
 }
         
+/* ######################################################### */
+
+@media (max-width:480px){
+
+    /* Landing Page ******************************* */
+    .landing_heading1,.project_heading2,    .review_heading2{
+        font-size: 1.5rem;
+    }
+
+
+
+/* project section**************************************  */
+
+
+
+    .project_detail h4{
+        font-size: 1rem;
+    }
+    .website_paragraph{
+        font-size: 12px;
+    }
+    .project_detail>a{
+        font-size: 14px;
+    }
+
+    /*  faq section ******************************** */
+
+    .faq_wrapper>h6{
+        font-size: 1rem;
+    }
+    .faq_wrapper>h2{
+        font-size: 1.5rem;
+    }
+    /* project idea in mind *********************** */
+    .project_idea_wrapper{
+        padding: 15px;
+    }
+    .idea_paragraph{
+        width: 62%;
+    }
+    .idea_heading4{
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .idea_detail{
+        font-size: 12px;
+    }
+
+
+    /* footer section  ****************************** */
+    .footer_photo{
+        width: 150px;
+       }
+
+    .footer_logo,.menu_div,.utility_div,.footer_subscribe{
+        width: 100%;
+    }
+    .footer_anker>li>a{
+        font-size: 12px;
+    }
+ 
+
+
+  .footer_wrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .footer_heading6{
+        padding-bottom: 10px;
+        font-weight: 700;
+        
+    }
+    .footer_anker{
+        display: flex;
+        gap: 13px;
+    }
+    .footer_subscribe {
+        padding-bottom: 20px;
+    }
+    .subscribe_paragraph{
+        font-size: 12px;
+    }
+    .newsletter_detail{
+        display: unset;
+    }
+
+    /* service section**************************** */
+
+    .service_paragraph{
+        width: 100%;
+    }
+.service_heading6{
+    font-size: 1rem;
+}
+.service_heading2 {
+    font-size: 1.5rem;
+}
+
+.card{
+    width: 100%;
+}
+ 
+/* About Section *****************************************  */
+.about_wrapper{
+    flex-direction: column-reverse;
+}
+.about_paragraph_section{
+    width: 100%;
+    text-align: center;
+}
+.about_image{
+    width: 100%;
+}
+ 
+/* member section ************************************** */
+.member_paragraph_section{
+    width: 100%;
+}
+.member_heading2{
+    font-size: 1.5rem;
+}
+.vector_image>a>i{
+    font-size: 12px;
+    
+}
+.vector_image{
+    margin-bottom: 10px;
+}
+.member_card_name {
+font-size: 1rem;
+}
+.member_card_post{
+    font-size: 12px;
+}
+
+/* portfolio recent work section ************************** */
+
+.wrapper_portfilio {
+    width: 90%;
+}
+.portfolio_heading1{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.portfolio_paragraph{
+    font-size: 14px;
+
+}
+.p_120{
+    padding-top: 60px;
+}
+
+.recent_idea_btn{
+    display: grid;
+}
+
+/* image section in read more ***************************** */
+
+.wp1{
+    font-size: 1rem;
+}
+.wp2{
+    font-size: 14px;
+}
+
+/* contact section ************************************** */
+.contact_form{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.contact,.form_detail{
+    width: 100%;
+}
+.vector_image_contact{
+    padding-top: 50px;
+}       
+.form_headin6 {
+    font-size: 14px;
+}
+.service_detail label{
+    font-size: 12px;
+}
+
+
+}
+
+
 

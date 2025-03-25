@@ -54,7 +54,7 @@
 /* hamburger for responsibe */
 
 .hamburger{
-   font-size: 3rem;
+   font-size: 2.5rem;
    /* background-color:var(--bg--blue); */
    background-color: transparent;
    display: none;
@@ -104,7 +104,7 @@
    margin-bottom: 40px;
 }
 
-
+ 
   
 
 /* member section***************************** */
