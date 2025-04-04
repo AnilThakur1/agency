@@ -18,7 +18,7 @@
 <body>
 
      <!-- nav section ***************************** -->
-     <section class="mainnav">
+     <header class="mainnav">
 
 
         <!-- hamburger for responsibe -->
@@ -32,7 +32,8 @@
         <div class="divnav w-90">
           
           
-            <button class="hamburger"><i class="fa-solid fa-bars hamburger_icon"></i></button>
+            <button onclick="navlink_mobile" id="hamburger"><i class="fa-solid fa-bars hamburger_icon"></i></button>
+            
 
         
             <a href=""><img class="navphoto" src="assets/images/frame_1.png" alt=""></a>
@@ -50,15 +51,22 @@
 
         </div>
         
+        <ul id="navlink_mobile" class="navlink_mobile hide_mobile_nav2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
            
        
         
-    </section>
+     </header>
 
 <!-- image section in read more ***************************** -->
  <section class="image_section">
     
-<div class="wrapper_image n w-90 p_120">
+<div class="wrapper_image w-90 p_120">
     <img class="read_more_image" src="assets/images/jobs_1.png" alt="">
 
 
@@ -252,6 +260,22 @@
 
 </footer>
 
+<script>
+
+        
+
+    let btn = document.getElementById("hamburger"); 
+    btn.addEventListener("click", 
+    function () {
+        let navlink_mobile = document.getElementById("navlink_mobile")
+        navlink_mobile.classList.toggle("navlink_mobile_2");
+
+    });
+
+
+
+
+    </script>
 
     
 </body>

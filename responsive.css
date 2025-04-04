@@ -115,11 +115,13 @@
     /* service card section ************************* */
 
     .service_wrapper {
-        padding: 120px 0 0 0;
+        padding: 200px 0 0 0;
     }
 
     /* About Section *****************************************  */
-
+    .about_wrapper{
+       margin-top: 150px; 
+    }
     .about_heading2 {
         font-size: 2.2rem;
     }
@@ -268,7 +270,7 @@
 
     .landingwrapper{
         margin-bottom: 0;
-        margin-top: 80px;
+        /* margin-top: 200px; */
     }
 
 
@@ -304,7 +306,7 @@
     }
 
     .faq_wrapper>h2{
-        padding-bottom: 0;
+        padding-bottom: 40px;
         font-size: 2.5rem;
     }
 
@@ -409,7 +411,7 @@
 /* service section****************************  */
 
 .service_wrapper {
-    padding: 60px 0 0px 0;
+    padding: 200px 0 0px 0;
 }
 .service_paragraph{
     width: 70%;
@@ -437,6 +439,9 @@
 }
 
 /* About Section  **************************************** */
+.about_wrapper {
+margin-top: 200px;
+}
 /* member section **************************************** */
 
 .member_wrapper{
@@ -540,21 +545,63 @@ input[type="radio"] {
 
 @media (max-width:768px){
 
+    .mainnav{
+        margin-bottom: 200px;
+    }
 
+ .navlink_mobile li a{
+    text-decoration: none;
+    color: var(--text--primary);
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 5%;
     
+     
+ }
+    
+.landingwrapper{
+    padding-top: 100px;
+}
 
-.hamburger{
+ .navlink{
+    display: none;
+ }
+
+  
+#hamburger{
    display: block;
-   visibility: visible;
-   box-sizing: border-box;
+   cursor: pointer;
+   
+
+   /* position: relative; */
+   /* visibility: visible; */
+   /* box-sizing: border-box; */
+
      }
  
-
-     .navlink{
-        display: none;
-        visibility:hidden;
+    .navlink_mobile_2{
+       display: flex;
+       flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        
+         
+    
      }
 
+     .navlink_mobile_2{
+        /* display: none;
+        visibility: visible; */
+
+     }
+
+     
+
+     .navlink_mobile li a{
+     text-decoration: none;
+
+     }
+     
 
 
      .divnav>.btn__main{
@@ -562,16 +609,18 @@ input[type="radio"] {
      }
     
 
+
+
+
+     
+
     .navphoto{
         min-width: 100px;
-        /* min-width: 80%; */
-         
+        /* min-width: 80%; */     
         
     }
-    .navlink{
-        gap: 15px;
-        
-    }
+    
+   
 
     .buttons{
         display:flex ;
@@ -601,7 +650,8 @@ input[type="radio"] {
     margin-bottom: 20px;
 }
 .landingwrapper{
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-flow: column-reverse;
     margin-bottom: 0;
 }
 
@@ -705,9 +755,11 @@ input[type="radio"] {
 
 /* service section**************************** */
 .service_wrapper{
-    padding: 120px 0 0 0;
+    padding: 333px 0 0 0;
 
 }
+
+ 
 
 
 .service_paragraph{
@@ -738,7 +790,10 @@ input[type="radio"] {
 .about_heading6{
     font-size: 1rem;
 }
-
+.about_wrapper{
+    flex-direction: column;
+    margin-top: 300px;
+}
 
 .about_heading2{
     /* line-height: 2rem; */
@@ -776,6 +831,12 @@ margin-bottom: 20px;
 
 
 /* portfolio nav section ******************************** */
+.wrapper_recent_work {
+    padding-top: 350px;
+
+}
+
+
 .portfolio_heading1{
     font-size: 2rem;
 }
@@ -804,6 +865,7 @@ font-size: 1rem;
  
 .wrapper_image{
         flex-direction: column-reverse;
+        padding-top: 350px;
         
 }
 
@@ -824,6 +886,7 @@ font-size: 1rem;
  
 .contact_wrapper{
     width: 90%;
+    padding-top: 350px;
     
 }
 
@@ -964,8 +1027,12 @@ input[type="radio"] {
     }
 
     /* service section**************************** */
+.service_wrapper{
+ margin-top: 280px;
+} 
 
-    .service_paragraph{
+
+.service_paragraph{
         width: 100%;
     }
 .service_heading6{
@@ -980,9 +1047,7 @@ input[type="radio"] {
 }
  
 /* About Section *****************************************  */
-.about_wrapper{
-    flex-direction: column-reverse;
-}
+ 
 .about_paragraph_section{
     width: 100%;
     text-align: center;
@@ -1013,6 +1078,14 @@ font-size: 1rem;
 }
 
 /* portfolio recent work section ************************** */
+.wrapper_recent_work {
+margin-top: 280px;
+}
+
+.wrapper_image {
+    margin-top: 280px;
+
+}
 
 .wrapper_portfilio {
     width: 90%;

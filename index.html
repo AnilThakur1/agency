@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="faq_javascript.js">
+    <script src="faq_javascript.js"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -21,28 +21,16 @@
 </head>
 
 <body>
-
-    <!-- nav section ***************************** -->
-    <section class="mainnav">
+           
+    <header class="mainnav">
 
 
         <!-- hamburger for responsibe -->
 
+        <div class="divnav w-90  ">
+            <button onclick="navlink_mobile_2" id="hamburger"><i class="fa-solid fa-bars hamburger_icon"></i></button>
 
-        
-       
-        
-
-
-        <div class="divnav w-90">
-          
-          
-            <button class="hamburger"><i class="fa-solid fa-bars hamburger_icon"></i></button>
-
-        
             <a href=""><img class="navphoto" src="assets/images/frame_1.png" alt=""></a>
-
-
             <ul class="navlink">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="service.html">Services</a></li>
@@ -50,20 +38,26 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <button type="submit"  class="btn__main">Contact</button>
 
-            <button class="btn__main">Contact</button>
-
-        </div>
+        </div>   
         
-           
-       
-        
-    </section>
+        <ul id="navlink_mobile" class="navlink_mobile hide_mobile_nav2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
 
 
+    </header>
+
+ 
+    
     <!--Landing Page *******************************  -->
 
-    <section class="landing_page">
+    <main class="landing_page">
         <div class="landingwrapper w-90">
 
             <div class="landing_paragraph_section">
@@ -83,7 +77,7 @@
             <img class="landing_page_photo" src="assets/images/home_header_img.png" alt="">
         </div>
 
-    </section>
+    </main>
 
     
 
@@ -163,50 +157,37 @@
 
 
     <section class="faq">
-        <div class="faq_wrapper w-90 p_120 ">
-            <h6>faq's</h6>
+        <div class="faq_wrapper w-90 p_120">
+            <h6>FAQ's</h6>
             <h2>Find the answers you need</h2>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <i class="fa-solid fa-angle-down"></i>
-             </p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <i class="fa-solid fa-angle-down"></i>
-             </p> 
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <i class="fa-solid fa-angle-down"></i>
-             </p> 
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <i class="fa-solid fa-angle-down"></i>
-             </p> 
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <i class="fa-solid fa-angle-down"></i>
-             </p> -->
-            <!-- <details>
-                <summary>what is lorem</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-             </details>
 
+            <div class="faq_item">
 
-             <details>
-                <summary>what is lorem</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-             </details>
-             <details>
-                <summary>what is lorem</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-             </details> -->
+                <div class="QA">
+                    <button class="faq_question">What Is Computer?</button>
+                    <div class="faq_answer">
+                        <p class="faq_para">A computer is an electronic device that processes data and performs tasks based on instructions.</p>
+                    </div>
+                </div>
 
-             
+                <div class="QA">
+                    <button class="faq_question">What Is Programming?</button>
+                    <div class="faq_answer">
+                        <p class="faq_para">Programming is the process of writing instructions for a computer to execute.</p>
+                    </div>
+                </div>
 
+                <div class="QA">
+                    <button class="faq_question">What Is JavaScript?</button>
+                    <div class="faq_answer">
+                        <p class="faq_para">JavaScript is a programming language used for web development to create interactive effects.</p>
+                    </div>
+                </div>
 
-
-
-
-
-
-
+            </div>
         </div>
     </section>
+
 
 
 
@@ -394,6 +375,69 @@
 
 
     </footer>
+    
+
+
+      <script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    let btn = document.getElementById("hamburger");
+    let navMobile = document.getElementById("navlink_mobile");
+ 
+    navMobile.classList.remove("navlink_mobile_2"); 
+ 
+    btn.addEventListener("click", function (event) {
+        // event.stopPropagation();  
+        navMobile.classList.toggle("navlink_mobile_2");
+    });
+
+     
+    document.addEventListener("click", function (event) {
+        if (!btn.contains(event.target) && !navMobile.contains(event.target)) {
+            navMobile.classList.remove("navlink_mobile_2");
+        }
+    });
+ 
+    window.addEventListener("resize", function () {
+        if (window.innerWidth > 768) {
+            navMobile.classList.remove("navlink_mobile_2");
+        }
+    });
+});
+
+
+        
+
+
+ 
+
+
+
+
+    document.querySelectorAll(".faq_question").forEach(button => {
+    button.addEventListener("click", function () {
+        // Close all answers & remove active class
+        document.querySelectorAll(".faq_answer").forEach(answer => {
+            answer.style.display = "none";
+        });
+
+        document.querySelectorAll(".faq_question").forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        // Open the clicked answer & mark active
+        let answer = this.nextElementSibling;
+        answer.style.display = "block";
+        this.classList.add("active");
+    });
+});
+
+
+
+
+
+        </script>
+
 
 
 </body>

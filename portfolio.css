@@ -1,4 +1,10 @@
 /* our portfolio section *********************************** */
+
+.wrapper_recent_work{
+    padding-top: 250px;
+}
+
+
 .portfilio_section{
     /* background-color: red; */
     background-color: var(--bg--blue);
@@ -19,6 +25,8 @@
     font-size: 1.125rem;
     font-weight: 400;
 }
+
+
 
 
 /* portfolio recent work section ****************************************/

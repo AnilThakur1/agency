@@ -4,6 +4,11 @@
 .service_section {
     text-align: center;
  }
+
+ .service_wrapper{
+   padding-top: 250px;
+
+ }
  
  .card_section {
     display: flex;
